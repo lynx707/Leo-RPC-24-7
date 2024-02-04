@@ -26,15 +26,15 @@ client.on('ready', async () => {
     .setApplicationId('1079010612769722508')
     .setType('WATCHING')
     .setURL('https://www.youtube.com/patkhet') //Must be a youtube video link 
-    .setState('He is only mine')
-    .setName('My Boy ♡')
+    .setState('She is only mine')
+    .setName('My Girl ♡')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1138126775856152626/1139828092781731860/a_6563b456acdc0fd74afbe3eeb945c79b.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('♡♡♡') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/730639619153985546.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Heart') //Text when you hover the Small image
-    .addButton('Discord Server', 'https://discord.gg/STrSPVtun3')
+    .addButton('Discord Server', 'https://discord.gg/n87vNuk89g')
     .addButton('Instagram Page', 'https://instagram.com/patkhet.lol');
 
   client.user.setActivity(r);
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `My Bae 💋💋`;
+      const newDetails = `My Baby`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
